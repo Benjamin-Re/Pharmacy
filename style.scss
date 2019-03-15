@@ -1,0 +1,86 @@
+/*for larger screens sticky-nav requires padding*/
+@media(min-width: 480px){
+    body {
+        padding-top: 100px;
+        padding-left: 15px;
+        padding-right: 5px;
+    }
+
+}
+
+/*set nav to fixed top for smaller screens*/
+@media (min-width: 200px) and (max-width: 480px) {
+    nav {
+		font-size: 0.9em;
+		position: static !important;
+	}
+}
+
+nav {
+    height: 100px;
+}
+
+/* the content on index*/
+$color: #dddddd;
+
+.container-fluid {
+    height: 200px;
+}
+
+.thumbnail {
+    padding: 60px;
+    overflow: hidden;
+    background-color: $color;
+    p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 40vh;
+    }
+}
+
+p {
+    text-align: center;
+}
+.header-wrap {
+    height: 30vh;
+    background: url(img/malaga2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* The navbar */
+a, form {
+    margin-left: 5vh;
+    color: hotpink;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#logo {
+    max-height: 50px;
+}
+
+/* Table on equipo.html*/
+table, ul {
+
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+th,td {
+    border: 1px solid #dddddd;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* productos.html */
+.productimg {
+  max-height: 20vh;
+  max-width: 20vh;
+}
+

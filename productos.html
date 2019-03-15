@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Productos</title>
+</head>
+<body>
+<!--navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mb-1">
+            <!--logo-->
+            <a href="./index.html" class="navbar-brand"><img src="./images.png" id="logo">Apotheke Torrox</a>
+            <!--sandwich button for collapsed nav-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--links-->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a href="./productos.html">Productos</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="./consejos.html">Consejos de salud</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="./equipo.html">El Equipo</a>
+                    </li>
+                </ul>
+            </div>
+            <!--form field-->
+            <form class="form-inline" action="/action_page.php">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </nav>
+
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>Productos</h1>
+            <div class="row">
+                <div class="col mt-2">
+                    <p>Nasenspray/ Aerosol Nasal: 1,99€</p>
+                    <img src="img/aerosol.jpg" class="img-fluid rounded productimg">
+                </div>
+                <div class="col mt-2">
+                    <p>Augentropfen/ Gotas para los ojos: 0,99€</p>
+                    <img src="img/gotas.jpeg" class="img-fluid rounded productimg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-2">
+                    <p>Pflaster/ Tirita: 0,59€</p>
+                    <img src="img/tirita.png" class="img-fluid rounded productimg">
+                </div>
+                <div class="col mt-2">
+                    <p>Vitamin D/ Vitamina D: 5,99€</p>
+                    <img src="img/vitamin.jpg" class="img-fluid rounded productimg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!--popper.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!--Javascript Plugins-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
